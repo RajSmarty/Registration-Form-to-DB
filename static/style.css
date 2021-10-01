@@ -1,0 +1,169 @@
+body {
+            margin: 0px;
+            padding: 0px;
+            /* background: url('static/cropped.jpg'); */
+            background-color: rgb(152, 240, 243);
+            font-family: 'Josefin Sans', sans-serif;
+            font-family: 'Righteous', cursive;
+        }
+
+        .left {
+
+            display: inline-block;
+            position: absolute;
+            left: 50px;
+            top: 23px;
+
+        }
+
+        .left img {
+            width: 65px;
+
+        }
+
+        .left div {
+            text-align: center;
+            font-size: 17px;
+            line-height: 8px;
+        }
+
+        .mid {
+
+
+            display: block;
+            width: 42%;
+            margin: 4px auto;
+
+        }
+
+        .right {
+
+
+            display: inline-block;
+            position: absolute;
+            right: 50px;
+            top: 23px;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 19px;
+            font-style: inherit;
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            padding: 15px;
+            font-style: bold;
+
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: rgb(79, 68, 231);
+
+        }
+
+        .btn {
+            margin: 5px 1px;
+            background-color: rgb(243, 239, 239);
+            padding: 1px 8px;
+            border: 3px solid rgb(68, 67, 67);
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: 'Josefin Sans', sans-serif;
+            font-family: 'Righteous', cursive;
+            font-size: 13px;
+            outline: none;
+            
+        }
+
+       .btn a{
+           text-decoration: none;
+       }
+
+        .btn:hover {
+            background-color: rgb(221, 217, 217);
+            
+        }
+
+        .container {
+            border: 7px solid rgb(0, 0, 0);
+            margin: 145px 653px;
+            width: 25%;
+            padding: 8px 135px;
+            border-radius: 12px;
+            display: block;
+            background-color: rgb(73, 219, 255);
+            box-shadow: 10px 8px 19px rgb(206, 204, 221);
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 0px 0px;
+            line-height: 1px;
+           
+        }
+
+        .formgroup input {
+            text-align: center;
+            display: block;
+            width: 341px;
+            padding: 6px;
+            border: 2px solid rgb(80, 79, 79);
+            margin: 6px auto;
+            border-radius: 4px;
+            outline: none;
+
+        }
+
+        .container button {
+            text-align: center;
+            display: block;
+            width: 358px;
+            padding: 5px 9px;
+            border: 3px solid rgb(80, 79, 79);
+            margin: 17px auto;
+            border-radius: 8px;
+
+        }
+
+        .container img {
+            width: 60px;
+            margin: 0px 140px;
+        }
+
+        .footer {
+            border: 2px solid rgb(58, 56, 56);
+            border-top: 2px solid rgb(121, 111, 111);
+            margin: 0px 0px;
+            padding: 0px 4px;
+            line-height: 40px;
+            display: block;
+            background-color: rgb(72, 88, 116);
+        }
+
+        .footbar li {
+            display: inline-block;
+            font-size: 19px;
+            font-style: inherit;
+        }
+
+        .footbar li a {
+            text-decoration: none;
+            padding: 55px;
+            font-style: bold;
+            color: white;
+            justify-content: center;
+            display: block;
+        }
+
+        h2{
+            color: rgb(0, 0, 0);
+            text-align: center;
+            margin: 0px 2px;
+            padding: 0px 2px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        

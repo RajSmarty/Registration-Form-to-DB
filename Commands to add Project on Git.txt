@@ -1,0 +1,21 @@
+git config --global user.name Raj Smarty
+
+git config --global user.email rajsmarty2108@gmail.com
+
+touch .gitignore
+
+git init
+
+git add .
+
+git commit -m "Initial Commit"
+
+git status
+
+git remote add origin git@github.com:RajSmarty/firstproject.git
+(Click on SSH & Copy the link)
+
+git push origin master
+(TYPE= 'yes')
+
+It will save the Project on GitHub!

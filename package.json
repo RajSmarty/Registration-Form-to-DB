@@ -1,0 +1,20 @@
+{
+  "name": "smartyformdatabase",
+  "version": "1.0.0",
+  "description": "Registration of New User in the Club with their informotion.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Raj Smarty",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "mongoose": "^5.13.7",
+    "nodemon": "^2.0.12",
+    "path": "^0.12.7",
+    "pug": "^3.0.2"
+  }
+}
